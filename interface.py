@@ -1,7 +1,7 @@
 
 import tkinter as tk
 from tkinter import messagebox
-from jogo_base import criar_baralho, distribuir_cartas, calcular_valor_mao, verificar_vencedor, turno_dealer
+from jogo import criar_baralho, distribuir_cartas, calcular_valor_mao, verificar_vencedor, turno_dealer
 
 class InterfaceBlackjack:
     def __init__(self, root):
